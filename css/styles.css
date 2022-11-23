@@ -1,0 +1,83 @@
+body {
+  background-color: #3598dc;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  width: 400px;
+  height: 450px;
+  background-color: #ffffff;
+  padding-top: 30px;
+  margin: 40px auto 15px auto;
+  border-radius: 4px;
+}
+.container {
+  width: 340px;
+  margin: 0 30px;
+}
+
+h1 {
+  color: #333333;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.text-color {
+  color: #baadb3;
+}
+.hr-line {
+  height: 1px;
+  width: 100%;
+  background-color: #eeeeee;
+  margin: 10px 0;
+}
+.text-inp {
+  width: 158px;
+}
+.first-inp {
+  margin-right: 20px;
+}
+.inp-placeholder {
+  width: 100%;
+}
+.inp-placeholder,
+.text-inp {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+}
+.inp-placeholder::placeholder,
+.text-inp::placeholder {
+  color: #aba6a9;
+  font-size: 16px;
+}
+.checkbox-inp {
+  color: red;
+}
+.label-terms {
+  color: #9a9aa4;
+}
+.link-terms {
+  color: #3598dc;
+}
+.button-sign {
+  width: 150px;
+  margin-top: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fefefe;
+  background-color: #3598dc;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+}
+.login-wrap {
+  text-align: center;
+  color: #fff8f6;
+}
+.login-link {
+  text-decoration: underline;
+  color: #fff8f6;
+}

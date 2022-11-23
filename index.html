@@ -5,29 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-up</title>
-    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <h1>Sign up</h1>
-        <p>Please fill in this form to create an account</p>
+    <header class="wrapper">
+      <div class="container">
+        <h1>Sign Up</h1>
+        <p class="text-color">Please fill in this form to create an account!</p>
       </div>
-      <hr />
-      <div>
+      <div class="hr-line"></div>
+      <div class="container">
         <form>
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Last Name" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <input type="password" placeholder="Confirm password" />
-          <input type="checkbox" id="terms" />
-          <label for="terms">
-            I accept the <a href="terms.html">Terms of Use</a> &
-            <a href="privacy.html">Privacy Policy</a> .
+          <input
+            class="text-inp first-inp"
+            type="text"
+            placeholder="First Name"
+          />
+          <input class="text-inp" type="text" placeholder="Last Name" />
+          <input class="inp-placeholder" type="email" placeholder="Email" />
+          <input
+            class="inp-placeholder"
+            type="password"
+            placeholder="Password"
+          />
+          <input
+            class="inp-placeholder"
+            type="password"
+            placeholder="Confirm password"
+          />
+          <input type="checkbox" class="checkbox-inp" id="terms" />
+          <label class="label-terms" for="terms">
+            I accept the
+            <a class="link-terms" href="terms.html">Terms of Use</a> &
+            <a class="link-terms" href="privacy.html">Privacy Policy</a> .
           </label>
+          <button class="button-sign" type="submit">Sign Up</button>
         </form>
       </div>
     </header>
+
+    <p class="login-wrap">
+      Already have an account?
+      <a class="login-link" href="login.html">Login here.</a>
+    </p>
   </body>
 </html>
