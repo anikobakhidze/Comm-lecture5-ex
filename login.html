@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LogIn</title>
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
     <script
       src="https://kit.fontawesome.com/9250806be3.js"
       crossorigin="anonymous"
@@ -18,15 +19,20 @@
       <h1>Login Form</h1>
       <div class="wraper-input">
         <form>
-          <label for="emailORphone">Email or Phone </label>
-          <br />
-          <input type="text" id="emailORphone" /><br />
-          <label for="password">Password</label> <br />
+          <div class="email-wrapper">
+            <label for="emailORphone" class="label">Email or Phone </label>
+            <br />
+            <input type="text" id="emailORphone" /><br />
+          </div>
+          <label for="password" class="label">Password</label> <br />
           <input type="password" id="password" />
         </form>
-        <span> Forgot Password? </span>
-        <button type="submit">LOGIN</button>
-        <span>Not a member? <a href="index.html">Signup now</a></span>
+        <span> <a href="#" class="pass-a"> Forgot Password? </a> </span><br />
+        <button type="submit" class="login-button">LOGIN</button><br />
+        <span class="sign-up"
+          >Not a member?
+          <a href="index.html" class="signup-a">Signup now</a></span
+        >
       </div>
     </header>
   </body>
