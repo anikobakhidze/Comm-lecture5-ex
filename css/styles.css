@@ -2,6 +2,7 @@ body {
   background-color: #3598dc;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
 .wrapper {
   width: 400px;
   height: 450px;
@@ -10,6 +11,7 @@ body {
   margin: 40px auto 15px auto;
   border-radius: 4px;
 }
+
 .container {
   width: 340px;
   margin: 0 30px;
@@ -21,24 +23,30 @@ h1 {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 .text-color {
   color: #baadb3;
 }
+
 .hr-line {
   height: 1px;
   width: 100%;
   background-color: #eeeeee;
   margin: 10px 0;
 }
+
 .text-inp {
   width: 158px;
 }
+
 .first-inp {
   margin-right: 20px;
 }
+
 .inp-placeholder {
   width: 100%;
 }
+
 .inp-placeholder,
 .text-inp {
   margin-bottom: 15px;
@@ -47,20 +55,26 @@ h1 {
   border-radius: 3px;
   background-color: #f2f2f2;
 }
+
 .inp-placeholder::placeholder,
 .text-inp::placeholder {
   color: #aba6a9;
   font-size: 16px;
 }
+
 .checkbox-inp {
-  color: red;
+  accent-color: #f2f2f2;
+
 }
+
 .label-terms {
   color: #9a9aa4;
 }
+
 .link-terms {
   color: #3598dc;
 }
+
 .button-sign {
   width: 150px;
   margin-top: 15px;
@@ -73,10 +87,12 @@ h1 {
   border: none;
   border-radius: 3px;
 }
+
 .login-wrap {
   text-align: center;
   color: #fff8f6;
 }
+
 .login-link {
   text-decoration: underline;
   color: #fff8f6;
